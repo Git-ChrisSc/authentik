@@ -185,7 +185,7 @@ Depending on your Nextcloud configuration, you might need to use `https://nextcl
 Automatically redirect users to authentik when they access Nextcloud by running:
 
 ```bash
-sudo -u www-data php var/www/nextcloud/occ config:app:set --value=0 user_oidc allow_multiple_user_backends
+sudo -u www-data php /var/www/nextcloud/occ config:app:set --value=0 user_oidc allow_multiple_user_backends
 ```
 
   </TabItem>
